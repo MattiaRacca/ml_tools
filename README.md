@@ -1,6 +1,10 @@
 # Mattia's ML tools
 Yet another Matlab implementation of Gaussian Mixture Models, Hidden Markov Models and correlated algorithms.
-Mainly used for my HRI'18 paper referenced below.
+Built for learning, used for my HRI'18 paper referenced below.
+
+The code uses two libraries from Tom Minka:
+- fastfit: https://github.com/tminka/fastfit
+- lightspeed: https://github.com/tminka/lightspeed
 
 In detail:
 - Gaussian Mixture Models (GMM): Probability, gradient and entropy computation (TODO: learning)
@@ -13,7 +17,8 @@ In detail:
 - Numerically stable: log probability space implementation
 
 References:
-- M. Racca and V. Kyrki, “Active Robot Learning for Temporal Task Models,” in Proceedings of the 2018 ACM/IEEE International Conference on Human-Robot Interaction, New York, NY, USA, 2018, pp. 123–131.
+- Racca, Mattia, and Kyrki Ville. "Active Robot Learning for Temporal Task Models." Proceedings of the 2018 ACM/IEEE International Conference on Human-Robot Interaction, New York, NY, USA, 2018, pp. 123–131.
+- Minka, Tom. "Estimating a Dirichlet distribution." Technical report, MIT, 2000.
 - Rabiner, Lawrence R. "A tutorial on hidden Markov models and selected applications in speech recognition." Proceedings of the IEEE 77.2 (1989): 257-286.
 - Murphy, Kevin P. "Machine learning: a probabilistic perspective." MIT press, 2012
 - Ramasso, Emmanuel, and Thierry Denoeux. "Making use of partial knowledge about hidden states in HMMs: an approach based on belief functions." IEEE Transactions on Fuzzy Systems 22.2 (2014) 395-405.
