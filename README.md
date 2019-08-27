@@ -7,7 +7,7 @@ The code uses two libraries from Tom Minka:
 - lightspeed: https://github.com/tminka/lightspeed
 
 In detail:
-- Gaussian Mixture Models (GMM): Probability, gradient and entropy computation (TODO: learning)
+- Gaussian Mixture Models (GMM): Probability, gradient and entropy computation
 - HMM: Inference and Learning for HMM (MLE, MAP only on multivariate normal emission probabilities)
 - Partially HMM (PHMM): Inference and Learning (MLE, MAP only on multivariate normal emission probabilities)
 - Multivariate Normal distribution (MVN): MLE, MAP, posterior predictive, entropy computation, gradient evaluation
@@ -17,7 +17,7 @@ In detail:
 - Numerically stable: log probability space implementation
 
 References:
-- Racca, Mattia, and Kyrki Ville. "Active Robot Learning for Temporal Task Models." Proceedings of the 2018 ACM/IEEE International Conference on Human-Robot Interaction, New York, NY, USA, 2018, pp. 123–131.
+- __Racca, Mattia, and Kyrki Ville. "Active Robot Learning for Temporal Task Models." Proceedings of the 2018 ACM/IEEE International Conference on Human-Robot Interaction, New York, NY, USA, 2018, pp. 123–131.__
 - Minka, Tom. "Estimating a Dirichlet distribution." Technical report, MIT, 2000.
 - Rabiner, Lawrence R. "A tutorial on hidden Markov models and selected applications in speech recognition." Proceedings of the IEEE 77.2 (1989): 257-286.
 - Murphy, Kevin P. "Machine learning: a probabilistic perspective." MIT press, 2012
